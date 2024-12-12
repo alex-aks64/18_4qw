@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <h1>{% block pagename %}{% endblock %}</h1>
+
+    {% block content %}{% endblock %}
+</body>
+</html>
+<h1><body text="#008000">Главная страница</body> </h1>
+{% block menu %}
+<a href="#"><h2>Главная страница</h2></a>
+<a href="index2.html"> <h2>Магазин</h2></a>
+<a href="index3.html"> <h2>Корзина</h2></a>
+{% endblock %}
+
+</body>
+</html>
